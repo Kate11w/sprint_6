@@ -2,7 +2,8 @@ import pytest
 import allure
 
 from pages.main_page import MainPage
-from data import TestData, Urls
+from data import TestData
+from urls import Urls
 
 
 class TestQuestions:

@@ -28,9 +28,3 @@ class TestData:
                     'Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.',
                     'Да, пока самокат не привезли. Штрафа не будет, объяснительной записки тоже не попросим. Все же свои.',
                     'Да, обязательно. Всем самокатов! И Москве, и Московской области.')
-
-class Urls:
-    MAIN_URL = 'https://qa-scooter.praktikum-services.ru/'
-    ORDER_URL = 'https://qa-scooter.praktikum-services.ru/order'
-    YANDEX_LOGO_URL = 'https://dzen.ru/?yredirect=true'
-    DZEN_URL = 'https://dzen.ru/'

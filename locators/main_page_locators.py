@@ -2,11 +2,11 @@ from selenium.webdriver.common.by import By
 
 class MainPageLocators:
     # Главная страница
-    SCOOTER_LOGO = (By.XPATH, '//img[@alt="Scooter"]')
-    YANDEX_LOGO = (By.XPATH, '//img[@alt="Yandex"]')
-    ORDER_BUTTON_IN_HEADER = (By.XPATH, '//button[contains(text(), "Заказать")][1]')
+    SCOOTER_LOGO = (By.CSS_SELECTOR, "[class*='Header_LogoScooter']")
+    YANDEX_LOGO = (By.CSS_SELECTOR, "[class*='Header_LogoYandex']")
+    ORDER_BUTTON_IN_HEADER = (By.XPATH, '//div[contains(@class, "Header_Nav")]/button[contains(text(), "Заказать")]')
     ORDER_BUTTON_IN_MAIN = (By.XPATH, '//button[contains(@class,"Button_Middle")]')
-    COOKIE_BUTTON = (By.XPATH, "//button[text()='да все привыкли']")
+    COOKIE_BUTTON = (By.ID, 'rcc-confirm-button')
     QUESTIONS_TITLE = (By.XPATH, "//div[text() = 'Вопросы о важном']")
 
     # Вопросы о важном

@@ -2,7 +2,7 @@ import pytest
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-from data import Urls
+from urls import Urls
 
 @pytest.fixture()
 def driver():
